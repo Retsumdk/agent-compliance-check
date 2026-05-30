@@ -1,0 +1,34 @@
+[
+  {
+    "id": "act-001",
+    "agentId": "researcher-alpha",
+    "timestamp": "2026-05-30T10:00:00Z",
+    "tool": "web_search",
+    "input": { "query": "latest news on malicious-site.com" },
+    "metadata": { "cost": 0.02 }
+  },
+  {
+    "id": "act-002",
+    "agentId": "researcher-alpha",
+    "timestamp": "2026-05-30T10:01:00Z",
+    "tool": "send_email",
+    "input": { "to": "john.doe@example.com", "text": "Found some data for you. My SSN is 123-45-6789." },
+    "metadata": { "cost": 0.01 }
+  },
+  {
+    "id": "act-003",
+    "agentId": "researcher-alpha",
+    "timestamp": "2026-05-30T10:05:00Z",
+    "tool": "wipe_disk",
+    "input": { "confirm": true },
+    "metadata": { "cost": 0.0 }
+  },
+  {
+    "id": "act-004",
+    "agentId": "researcher-alpha",
+    "timestamp": "2026-05-30T10:10:00Z",
+    "tool": "web_search",
+    "input": { "query": "how to build a treehouse" },
+    "metadata": { "cost": 150.0 }
+  }
+]
